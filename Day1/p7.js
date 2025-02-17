@@ -1,6 +1,6 @@
 const fs= require('fs');
 const del=()=>{
-    fs.unlink('./data.txt',(err)=>{
+    fs.unlink('./mkdir/data.txt',(err)=>{
         if(err)
             console.error(err)
         else
