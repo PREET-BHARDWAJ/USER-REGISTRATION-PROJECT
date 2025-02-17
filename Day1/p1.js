@@ -1,2 +1,2 @@
 const data="Hello World"
-console.log(data)g
+console.log(data)
