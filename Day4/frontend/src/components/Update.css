@@ -1,0 +1,26 @@
+.upd{
+    align-items: center;
+    justify-self: center;
+    border: 5px solid;
+    padding: 80px;
+    height: 35vh;
+    background-color: black;
+    opacity: 0.85;
+    border-radius: 3%;
+}
+.upd input:hover{
+        background-color: aqua;}
+#ubutton{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 68px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: grey;
+    color: white;
+    transition: 0.9s}
+#ubutton:hover{
+    color: black;
+    background-color: red;
+    padding: 12px;
+}

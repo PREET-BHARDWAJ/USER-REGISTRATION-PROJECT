@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import './Delete.css'
 
 const Delete = () => {
     const handledel=async(e) => {
@@ -9,17 +10,18 @@ const Delete = () => {
         alert('User delete successfully')
     }
   return (
-    <div>
-        <h1>Delete User Data</h1>
+    <>
+    <h2 align='center'><u>DELETE USER DATA</u></h2>
+    <div className='ddl'>
         <form onSubmit={handledel}>
          <label>
-            ID:
+            ID:<br></br>
             <input type='text' name='id'/><br></br><br></br>  
         </label>
-        <button type='submit'>delete</button> 
+        <button type='submit' id="dbutton">Delete</button> 
         </form>
     </div>  
-  )
+  </>)
 }
 
 export default Delete

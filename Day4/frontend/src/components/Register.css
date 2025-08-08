@@ -1,0 +1,42 @@
+.reg{
+    align-items: center;
+    justify-self: center;
+    border: 5px solid;
+    padding: 80px;
+    height: 35vh;
+   background-color: black;
+    box-shadow: 0 6px 10px rgb(66, 232, 6);
+    opacity: 1;
+    border-radius: 3%;
+}
+label{
+    margin:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+#rebutton{
+    border-radius: 10px;
+    margin: 50px;
+    margin-left: 70px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: grey;
+    color: white;
+    transition: 0.9s}
+#rebutton:hover{
+    color: black;
+    background-color: red;
+    padding: 12px;
+}
+.reg input:hover{
+        background-color: aqua;}

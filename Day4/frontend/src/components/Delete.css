@@ -1,0 +1,29 @@
+.ddl{
+    align-items: center;
+    justify-self: center;
+    border: 5px solid;
+    padding: 80px;
+    height: 35vh;
+    background-color: black;
+    opacity: 0.85;
+    border-radius: 3%;
+}
+.ddl input{
+    padding: 15px;
+    }
+.ddl input:hover{
+        background-color: aqua;}
+#dbutton{
+    border-radius: 10px;
+    margin: 50px;
+    margin-left: 70px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: grey;
+    color: white;
+    transition: 0.9s}
+#dbutton:hover{
+    color: black;
+    background-color: red;
+    padding: 12px;
+}

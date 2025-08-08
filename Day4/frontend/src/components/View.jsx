@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import './View.css'
 
 const View=() => {
     const [users,setUsers]=useState([]);
@@ -11,9 +12,9 @@ const View=() => {
         handleview();
     },[])
   return (
-    <div>
-        <h1>View Registered</h1>
-        <table style={{width:'100%',backgroundColor: 'yellow',border: '5px solid black'}}>
+    <div className='vv'>
+        <h2 align="center"><u>REGISTERED LOG</u></h2>
+        <table style={{align:"center",width:'50%',backgroundColor: 'yellow',border: '5px solid black'}}>
             <thead style={{backgroundColor:'blue',color:'white'}}>
                 <tr>
                     <th>ID</th>

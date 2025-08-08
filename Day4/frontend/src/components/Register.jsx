@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import './Register.css'
 const Register = () => {
     const handleregister =async (e)=>{
         e.preventDefault();
@@ -10,20 +11,22 @@ const Register = () => {
         alert('User registered successfully')
     }
   return (
-    <div>
+    <>
+     <h2 align='center'><u>NEW USER</u></h2>
+    <div className='reg'>
       <form onSubmit={handleregister}>
         <label>
-          Name:
+          Name:<br></br>
           <input type="text" name="name" />
-        </label>
+        </label><br></br>
         <label>
-          Age:
+          Age:<br></br>
           <input type="text" name="age" />
-        </label>
-        <button type='submit'>Register</button>
+        </label><br></br>
+        <button id="rebutton" type='submit'>Register</button>
       </form>
     </div>
+    </>
   )
 }
-
 export default Register

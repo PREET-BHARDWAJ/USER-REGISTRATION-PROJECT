@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import './Update.css'
 const Update = () => {
     const handleupdate=async(e) => {
         e.preventDefault();
@@ -11,26 +12,27 @@ const Update = () => {
         alert('User update successfully')
     }
   return(
-    <div>
-        <h1>Udate User Data</h1>
+    <>
+    <h2 align="center"><u>UPDATE USER DATA</u></h2>
+    <div className='upd'>
         <form onSubmit={handleupdate}>
-            <label>
-                ID:
-                <input type='text' name='id'/><br></br><br></br>  
+            <label>ID:<br></br>
+                <input type='text' name='id'/><br></br>
             </label>
             <label>
-                NAME:
-                <input type='text' name="name"/><br></br><br></br>  
+                NAME:<br></br>
+                <input type='text' name="name"/><br></br>
             </label>
             <label>
-                AGE:
-                <input type='text' name="age"/><br></br><br></br>  
+                AGE:<br></br>
+                <input type='text' name="age"/><br></br>
             </label>
-            <button type='submit'>Update</button>
+            <button type='submit'id="ubutton">Update</button>
 
 
         </form>
     </div>
+    </>
   )
 }
 export default Update
